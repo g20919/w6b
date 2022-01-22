@@ -36,13 +36,12 @@
       var marker = new google.maps.Marker({
         position: {lat: 35.6359322, lng: 139.8786311},
         icon: iconBase + 'flag_maps.png',
-        content: '日本で人気のテーマパークです。',
         map: map
       });
 
       // Step 3. Add info window
 
-      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">Custom info window</h2><p>This is a cool custom info window.</p></div>';
+      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">東京ディズニーランドステーション</h2><p>東京ディズニーランドには毎年必ず訪れており、好きな場所だからです。</p></div>';
 
       var infowindow = new google.maps.InfoWindow({
         content: contentString
