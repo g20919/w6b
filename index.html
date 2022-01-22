@@ -44,7 +44,8 @@
       var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">Custom info window</h2><p>This is a cool custom info window.</p></div>';
 
       var infowindow = new google.maps.InfoWindow({
-        content: contentString
+        content: contentString,
+        content: '日本で人気のテーマパークです。'
       });
 
       marker.addListener('click', function() {
